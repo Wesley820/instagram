@@ -22,6 +22,10 @@
  This project had as main objective to learn more about react native and its ecosystem, approaching several concepts and functionalities.
 </p>
 
+<p align="center">
+  <img src="./.github/result.png"/>
+</p>
+
 # Tech
 
 - [Node.Js](https://nodejs.org/en/)
