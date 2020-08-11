@@ -18,3 +18,6 @@ const Route = use('Route');
 
 Route.post('/register', 'UserController.store').validator('UserStore');
 Route.post('/login', 'LoginController.store');
+
+Route.post('/verify/username', 'UserVerifyController.username');
+Route.post('/verify/email', 'UserVerifyController.email');

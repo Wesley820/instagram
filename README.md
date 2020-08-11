@@ -27,6 +27,7 @@
 - [Node.Js](https://nodejs.org/en/)
 - [Adonis.Js](https://adonisjs.com/)
 - [PostgreSQL](https://www.postgresql.org/)
+- [Expo](https://expo.io/)
 
 # Prerequisites
 
@@ -34,6 +35,7 @@
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/)
 - [PostgreSQL](https://www.postgresql.org/)
+- [Expo CLI](https://expo.io/)
 - Adonis.Js CLI
 
 # Installing
@@ -46,7 +48,13 @@ To install the Adonis CLI, run the following command on your terminal
 npm install -g @adonisjs/cli
 ```
 
-**passing -g npm will install the Adonis CLI globally on your machine**
+To install the Expo CLI, run the following command on your terminal
+
+```bash
+npm install -g expor-cli
+```
+
+**passing -g npm will install the Adonis CLI and Expo CLI globally on your machine**
 
 # Development setup
 
@@ -114,6 +122,16 @@ To run the tests, in the backend directory, execute the command:
 
 ```
 adonis test
+```
+
+## Front-end
+
+To run the project in react native, just execute the following commands:
+
+```bash
+cd mobile
+yarn
+yarn start
 ```
 
 # How to contribute
